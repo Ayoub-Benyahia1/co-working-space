@@ -4,7 +4,6 @@ import space2 from "../images/working-space3.jpg";
 import { places, includedOnOffice } from "../api/workingPlaceData";
 
 function Features() {
-
   return (
     <section className="w-[100dvw]">
       <div className="w-[100%] h-[90dvh] md:h-[40dvh] lg:h-[60dvh] my-6 md:my-20 md:flex md:gap-12">
@@ -21,11 +20,13 @@ function Features() {
             src={space1}
             alt=""
             className="w-[80%] h-[23dvh] md:w-[50%] md:h-[80%] lg:h-[100%]"
+            loading="lazy"
           />
           <img
             src={space2}
             alt=""
             className="w-[80%] h-[23dvh] md:w-[50%] md:h-[80%] lg:h-[100%]"
+            loading="lazy"
           />
         </div>
       </div>
@@ -39,6 +40,7 @@ function Features() {
               src={space1}
               alt=""
               className="w-[55dvw] md:w-[100%] h-[30dvh]"
+              loading="lazy"
             />
             <p className="text-center my-auto font-semibold">
               One and Two year lease terms available.
@@ -49,6 +51,7 @@ function Features() {
               src={space2}
               alt=""
               className="w-[55dvw] md:w-[100%] h-[30dvh]"
+              loading="lazy"
             />
             <p className="text-center my-auto font-semibold">All-in pricing.</p>
           </div>
@@ -57,6 +60,7 @@ function Features() {
               src={space1}
               alt=""
               className="w-[55dvw] md:w-[100%] h-[30dvh]"
+              loading="lazy"
             />
             <p className="text-center my-auto font-semibold">
               2-10 Person Occupancy With Larger Suites.
@@ -114,6 +118,7 @@ function Features() {
                   src={place.img}
                   alt=""
                   className="w-[50%] h-[20dvh] md:w-[20dvw] md:h-[14dvh] lg:w-[8dvw] lg:h-[16dvh]"
+                  loading="lazy"
                 />
                 <div className="flex flex-col">
                   <h1 className="text-2xl lg:text-3xl font-semibold">
